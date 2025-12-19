@@ -8,6 +8,7 @@ docker compose -f compose_postgres.yml up -d
 Step 2: Initialize Astro project and run
 
 ```bash
+brew install astro
 astro dev init
 ```
 
