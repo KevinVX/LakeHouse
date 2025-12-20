@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: dev # schema chứa rd_ohlcv
+    tables:
+      - name: rd_ohlcv # bảng rd.ohlcv
+        description: "Raw OHLCV data from Twitter API"

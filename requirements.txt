@@ -2,3 +2,4 @@
 astronomer-cosmos
 apache-airflow-providers-postgres
 requests
+apache-airflow-providers-telegram

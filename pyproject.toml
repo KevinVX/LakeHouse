@@ -1,10 +1,16 @@
 [project]
-name = "delakehouse"
+name = "lakehouse"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "apache-airflow>=3.1.5",
+    "apache-airflow-providers-postgres>=6.5.1",
+    "apache-airflow-providers-telegram>=4.9.1",
+    "astronomer-cosmos>=1.12.0",
+    "cosmos>=0.1.93.3",
     "dbt>=1.0.0.40.12",
     "dbt-postgres>=1.9.1",
+    "requests>=2.32.5",
 ]
