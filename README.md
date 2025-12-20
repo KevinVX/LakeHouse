@@ -9,7 +9,8 @@ Step 2: Initialize Astro project and run
 
 ```bash
 brew install astro
-astro dev init
+# If you haven't initialized an Astro project yet, run:
+# astro dev init
 ```
 
 Step 3: Install uv
@@ -22,7 +23,7 @@ uv sync
 Step 4: Run Astro project
 
 ```bash
-astro dev run
+astro dev start
 ```
 
 Step 5: Access Airflow UI
