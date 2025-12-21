@@ -1,3 +1,9 @@
+## System Architecture
+
+<img src="etc/system_architecture.jpg" alt="System Architecture" width="600"/>
+
+## Setup Instructions
+
 Step 1: Install postgres with Docker Compose
 
 ```bash
