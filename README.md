@@ -4,10 +4,10 @@
 
 ## Setup Instructions
 
-Step 1: Install postgres with Docker Compose
+Step 1: Install postgres & iceberg & trinno with Docker Compose
 
 ```bash
-
+docker compose -f compose_iceberg_trino.yml up -d
 docker compose -f compose_postgres.yml up -d
 ```
 
