@@ -5,8 +5,8 @@ ecommerce_dbt:
       method: none
       user: admin
       database: iceberg
-      # host: host.docker.internal
-      host: localhost
+      host: host.docker.internal
+      # host: localhost
       port: 9080
       schema: bronze
       threads: 3
