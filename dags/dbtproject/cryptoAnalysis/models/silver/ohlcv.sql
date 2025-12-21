@@ -1,6 +1,7 @@
 {{ config(
     materialized='incremental',
-    unique_key=['symbol', 'interval', 'open_time']
+    unique_key=['symbol', 'interval', 'open_time'],
+    on_conflict='ignore'
 ) }}
 
 select

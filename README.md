@@ -29,3 +29,14 @@ astro dev start
 Step 5: Access Airflow UI
 
 Open your web browser and navigate to http://localhost:8080 to access the Airflow UI.
+
+Step 6: View dbt documentation
+
+```bash
+cd dags/dbtproject/ecommerce_dbt
+
+uv run dbt docs generate
+# After running the dbt docs generate command in your dbt project, you can serve the documentation locally by running:
+dbt docs serve --port 8081
+# Then, open your web browser and navigate to http://localhost:8081 to view the dbt documentation.
+```
